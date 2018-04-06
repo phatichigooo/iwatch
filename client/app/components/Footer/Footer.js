@@ -29,7 +29,7 @@ const Footer = () => (
                   <div className="btn-title">RECENT PORT</div>
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
@@ -41,7 +41,7 @@ const Footer = () => (
                 <div className="row">
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
@@ -53,7 +53,7 @@ const Footer = () => (
                 <div className="row">
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
@@ -70,7 +70,7 @@ const Footer = () => (
                   <div className="btn-title">POPULAR PORT</div>
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
@@ -82,7 +82,7 @@ const Footer = () => (
                 <div className="row">
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
@@ -94,7 +94,7 @@ const Footer = () => (
                 <div className="row">
                   <a href>
                     <div className>
-                      <img src="img/iconFix.png" className="img-responsive-footer" alt />
+                      <img src="../assets/img/01.jpg" className="img-responsive-footer" alt />
                     </div>
                     <div className>
                       <p className="news-title">Lorem ipsum dolor sit amet, consectetur.</p>
