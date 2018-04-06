@@ -8,7 +8,7 @@ const App = ({ children }) => (
     <Header />
 
     <main>
-      {children}
+     <div>hello Iwatch</div>
     </main>
 
     <Footer />
