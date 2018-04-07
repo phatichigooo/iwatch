@@ -13,12 +13,14 @@ import NotFound from './components/App/NotFound';
 import Home from './components/Home/Home';
 import '../public/assets/styles/styles.scss';
 
+
 render((
   <Router>
     <App>
       <Switch>
         <Route exact path="/" component={Home}/>
         <Route component={NotFound}/>
+       
       </Switch>
     </App>
   </Router>

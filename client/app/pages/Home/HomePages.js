@@ -1,11 +1,14 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
+import Header from './../../components/Header/Header';
+import VideoBackground from './../../components/Header/VideoBackground';
 
 
 const HomePages = () => (
-  <div className="container">
-      <h1>Trang Chủ</h1>
+  <div>
+  
+  <VideoBackground></VideoBackground>
   </div>
 );
 
