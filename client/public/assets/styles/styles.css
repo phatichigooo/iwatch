@@ -40,6 +40,7 @@ a {
   padding: 0;
 }
 
+/**************************Header*************************/
 /****************************Menu**************************/
 .logo {
   margin-top: 50px;
@@ -80,7 +81,6 @@ li a {
 }
 
 [id^='navbar'] ul {
-  background-color: #fff;
   border: 0;
   display: flex;
   padding: 0 2rem;
@@ -102,6 +102,20 @@ li a {
   transform: scale(1.2);
 }
 
+/*====================Videobackground=================*/
+.video-background {
+  /*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+}
+
+/* These just style the content */
 /*====================Footer=================*/
 img.img-responsive-footer {
   width: 50px;
