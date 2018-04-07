@@ -24,7 +24,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.json', '.css', '.scss', '.html'],
     alias: {
-      'app': 'client/app'
+      'public': 'client/public'
     }
   },
 
@@ -32,7 +32,7 @@ module.exports = {
     rules: [
       // JS files
       {
-        test: /\.jsx?$/,
+        test: /\.js?$/,
         include: helpers.root('client'),
         loader: 'babel-loader'
       },

@@ -6,11 +6,6 @@ import Footer from '../Footer/Footer';
 const App = ({ children }) => (
   <div>
     <Header />
-
-    <main>
-     <div>hello Iwatch</div>
-    </main>
-
     <Footer />
   </div>
 );

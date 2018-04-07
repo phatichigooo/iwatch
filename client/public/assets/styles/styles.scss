@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import 'vendor/normalize';
+
+/* ================================= 
+  Table of content
+==================================== */
+
+
+/*
+1. Color Palette
+2. Base Element Styles
+3. Base Heading Styles
+4. Base Layout Styles
+	1. Navigation
+	2. Package
+	3. Event
+	4. Things to do
+	5. Destinations
+	6. 
+5. Media Queries
+
+*/
+
+
+/* ================================= 
+  1.Color Palettes 
+==================================== */
+
+$color-orange:#e65100;
+$color-dark:#212121;
+$color-background:#fff;
+
+/* ================================= 
+  Google fonts
+==================================== */
+
+$font-stack: Helvetica,
+sans-serif,
+Arial;
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script");
+
+/* ================================= 
+  2.Base Element Styles
+==================================== */
+
+html,
+body {
+    font-family: $font-stack;
+}
+
+body,
+nav,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/****************************Menu**************************/
+
+.logo {
+    margin-top: 50px;
+    margin-left: -150px;
+}
+
+.menu {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 0 1.5rem 0;
+    padding: 0;
+}
+
+li {
+    background-size: 100% 200%;
+    background-position: top center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    &:hover {
+        background-position: bottom center;
+        color: $color-orange;
+    }
+    & a {
+        color: $color-dark;
+        display: block;
+        padding: 1rem 0;
+        transition: all .25s ease-in-out;
+        text-decoration: none;
+    }
+}
+
+[id^='navbar'] ul {
+    background-color: $color-background;
+    border: 0;
+    display: flex;
+    padding: 0 2rem;
+    position: relative;
+    left: -2rem;
+    width: calc(100% + 4rem);
+    & li {
+        flex: 1 1 auto;
+        & a:hover {
+            text-decoration: none;
+            color: $color-orange;
+        }
+    }
+}
+
+#navbar {
+    & li:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+/*====================Footer=================*/
+
+img.img-responsive-footer {
+    width: 50px;
+    float: left;
+    margin: 5px;
+}
+
+.social-section li {
+    padding: 5px;
+    margin: 5px;
+    width: 50px;
+    float: left;
+    color: $color-orange;
+}
+
+.news-item {
+    border-bottom: 1px solid #fff;
+}
+
+
+/*************************end-footer*****************************/

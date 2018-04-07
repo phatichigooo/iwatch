@@ -110,7 +110,7 @@ const Footer = () => (
             {/*Grid column*/}
             <div className="col-md-8 col-lg-9">
               {/*Copyright*/}
-              <p className="text-center text-md-left grey-text">© 2018 Copyright:WEFIXALL</p>
+              <p className="text-center text-md-left grey-text">© 2018 Copyright:iwatch</p>
               {/*/.Copyright*/}
             </div>
             {/*Grid column*/}
