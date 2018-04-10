@@ -63,23 +63,19 @@ a {
 
 /****************************Menu**************************/
 
-.logo {
-    margin-top: 50px;
-    margin-left: -150px;
+.headerHover ul :hover {
+    background-color: $color-background;
+    color: $color-dark;
+    opacity: 0.9;
 }
 
-.menu {
-    margin-top: 75px;
-    margin-left: 150px;
-}
-
-ul {
+.headerHover ul {
     list-style: none;
     margin: 0 0 1.5rem 0;
     padding: 0;
 }
 
-li {
+.headerHover li {
     background-size: 100% 200%;
     background-position: top center;
     display: block;
@@ -91,7 +87,9 @@ li {
         color: $color-orange;
     }
     & a {
+        font-family: 'Segoe Print';
         color: $color-dark;
+        font-weight: 400;
         display: block;
         padding: 1rem 0;
         transition: all .25s ease-in-out;
@@ -99,7 +97,7 @@ li {
     }
 }
 
-[id^='navbar'] ul {
+.headerHover [id^='navbar'] ul {
     border: 0;
     display: flex;
     padding: 0 2rem;
@@ -115,7 +113,7 @@ li {
     }
 }
 
-#navbar {
+.headerHover #navbar {
     & li:hover {
         transform: scale(1.2);
     }

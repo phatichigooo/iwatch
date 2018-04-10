@@ -42,23 +42,19 @@ a {
 
 /**************************Header*************************/
 /****************************Menu**************************/
-.logo {
-  margin-top: 50px;
-  margin-left: -150px;
+.headerHover ul :hover {
+  background-color: #fff;
+  color: #212121;
+  opacity: 0.9;
 }
 
-.menu {
-  margin-top: 75px;
-  margin-left: 150px;
-}
-
-ul {
+.headerHover ul {
   list-style: none;
   margin: 0 0 1.5rem 0;
   padding: 0;
 }
 
-li {
+.headerHover li {
   background-size: 100% 200%;
   background-position: top center;
   display: block;
@@ -67,20 +63,22 @@ li {
   transition: all .25s ease-in-out;
 }
 
-li:hover {
+.headerHover li:hover {
   background-position: bottom center;
   color: #e65100;
 }
 
-li a {
+.headerHover li a {
+  font-family: 'Segoe Print';
   color: #212121;
+  font-weight: 400;
   display: block;
   padding: 1rem 0;
   transition: all .25s ease-in-out;
   text-decoration: none;
 }
 
-[id^='navbar'] ul {
+.headerHover [id^='navbar'] ul {
   border: 0;
   display: flex;
   padding: 0 2rem;
@@ -89,16 +87,16 @@ li a {
   width: calc(100% + 4rem);
 }
 
-[id^='navbar'] ul li {
+.headerHover [id^='navbar'] ul li {
   flex: 1 1 auto;
 }
 
-[id^='navbar'] ul li a:hover {
+.headerHover [id^='navbar'] ul li a:hover {
   text-decoration: none;
   color: #e65100;
 }
 
-#navbar li:hover {
+.headerHover #navbar li:hover {
   transform: scale(1.2);
 }
 
