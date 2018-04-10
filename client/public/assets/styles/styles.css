@@ -1,4 +1,4 @@
-@import url(c:\Users\ACER\Downloads\Compressed\ThucTapTotNghiep\client\public\assets\styles\vendor\normalize.css);
+@import url(c:\Users\phanc\Desktop\IWatch\client\public\assets\styles\vendor\normalize.css);
 /* ================================= 
   Table of content
 ==================================== */
@@ -38,23 +38,29 @@ li,
 a {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  color: #000;
 }
 
 /**************************Header*************************/
 /****************************Menu**************************/
-.headerHover ul :hover {
-  background-color: #fff;
+.headerHover [id^='navbar'] ul :hover {
+  background-color: #f2f2f2;
   color: #212121;
   opacity: 0.9;
 }
 
-.headerHover ul {
+.headerHover [id^='navbar'] ul {
   list-style: none;
   margin: 0 0 1.5rem 0;
   padding: 0;
 }
 
-.headerHover li {
+.headerHover [id^='navbar'] li {
   background-size: 100% 200%;
   background-position: top center;
   display: block;
@@ -63,12 +69,12 @@ a {
   transition: all .25s ease-in-out;
 }
 
-.headerHover li:hover {
+.headerHover [id^='navbar'] li:hover {
   background-position: bottom center;
   color: #e65100;
 }
 
-.headerHover li a {
+.headerHover [id^='navbar'] li a {
   font-family: 'Segoe Print';
   color: #212121;
   font-weight: 400;
@@ -134,3 +140,200 @@ img.img-responsive-footer {
 }
 
 /*************************end-footer*****************************/
+/*************************VideoChanel*************************/
+.type {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #959595;
+  letter-spacing: 1px;
+  padding: 5px 10px;
+  margin: 10px;
+  margin-left: 20px;
+  background-color: #DDDD;
+}
+
+.owlCarouselVertical {
+  margin: 5px;
+}
+
+.img-responsive {
+  max-width: 100%;
+  padding: 5px;
+}
+
+.background {
+  background-color: #f2f2f2;
+}
+
+.img-thumbnail {
+  display: inline-block;
+  margin: 7px;
+}
+
+.owl-carousel .owl-item img {
+  width: 97%;
+}
+
+.owl-carousel {
+  margin: 7px;
+  text-align: center;
+}
+
+/*************************End VideoChanel*************************/
+/*************************Start WomansWatch*************************/
+.categories {
+  padding: 5px;
+  background: #f2f2f2;
+}
+
+.carousels {
+  margin-top: 20px;
+}
+
+.title {
+  text-transform: capitalize;
+  color: #000;
+  padding: 5px;
+  font-weight: 700;
+}
+
+.sub-categories {
+  padding-left: 30px;
+  font-size: 18px;
+  text-transform: initial;
+  line-height: 18px;
+}
+
+.card-header:hover {
+  cursor: pointer;
+}
+
+.accordion .card {
+  background-color: #f2f2f2;
+}
+
+.accordion .card .card-header {
+  padding: 0.5rem 0.5rem;
+  cursor: pointer;
+}
+
+.form-check {
+  padding: 0rem 0.5rem;
+}
+
+.image {
+  width: 45%;
+}
+
+.recent-infor {
+  float: right;
+  width: 50%;
+  height: 100px;
+}
+
+.introduce {
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+/* left */
+.dropdown {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+}
+
+.products .row {
+  margin: 0px;
+}
+
+.products {
+  background-color: #f2f2f2;
+}
+
+.sorter {
+  margin-bottom: 0px;
+}
+
+.single-product {
+  width: 100%;
+  height: 350px;
+}
+
+.image {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 15px;
+  height: auto;
+  padding: 0;
+}
+
+.recent {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  height: 100px;
+}
+
+.infor {
+  top: 30px;
+  float: right;
+  width: 60%;
+}
+
+.price {
+  color: red;
+}
+
+.line {
+  margin: 5px 0;
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  opacity: 0.2;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.Mybtn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid #d6d4d4;
+  border-radius: 4px;
+  background-color: #d6d4d4;
+}
+
+.panel-body {
+  padding: 3px;
+  background-color: #d6d4d4;
+}
+
+.number {
+  text-align: center;
+}
+
+/*************************End WomansWatch*************************/
