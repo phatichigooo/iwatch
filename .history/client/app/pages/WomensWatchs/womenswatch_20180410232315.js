@@ -162,7 +162,7 @@ const womenswatch = () => (
                       <div className="row">
                           <div className="single-product">
                               <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 image">
-                              <img src="./assets/img/01.jpg" alt className="img-responsive img-rounded" />
+                              <img src="./img/product/watch3.jpg" alt className="img-responsive img-rounded" />
                               </div>
                               <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 infor">
                                   <h3>Tên sản phẩm</h3>
@@ -182,7 +182,7 @@ const womenswatch = () => (
                       <div className="row">
                           <div className="single-product">
                               <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 image">
-                              <img src="./assets/img/01.jpg" alt className="img-responsive img-rounded" />
+                              <img src="./img/product/watch3.jpg" alt className="img-responsive img-rounded" />
                               </div>
                               <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 infor">
                                   <h3>Tên sản phẩm</h3>
@@ -205,9 +205,6 @@ const womenswatch = () => (
           </div>
       </div>
     </div>
-  </div>
-  <div>
-    <Footer />
   </div>
 </div>
 );

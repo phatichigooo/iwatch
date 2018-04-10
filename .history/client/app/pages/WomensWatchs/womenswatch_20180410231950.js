@@ -147,14 +147,14 @@ const womenswatch = () => (
               
               <div className="col-xs-9 col-sm-9 col-md-9 col-lg-9">
 
-                    <div className="btn-group">
-                        <button className="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basic dropdown</button>
-                        <div className="dropdown-menu">
-                            <a className="dropdown-item" href="#">Action</a>
-                            <a className="dropdown-item" href="#">Another action</a>
-                            <a className="dropdown-item" href="#">Something else here</a>
-                            <div clclassNameass="dropdown-divider"></div>
-                            <a className="dropdown-item" href="#">Separated link</a>
+                    <div class="btn-group">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Basic dropdown</button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Separated link</a>
                         </div>
                     </div>
                                   
@@ -162,7 +162,7 @@ const womenswatch = () => (
                       <div className="row">
                           <div className="single-product">
                               <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 image">
-                              <img src="./assets/img/01.jpg" alt className="img-responsive img-rounded" />
+                              <img src="./img/product/watch3.jpg" alt className="img-responsive img-rounded" />
                               </div>
                               <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 infor">
                                   <h3>Tên sản phẩm</h3>
@@ -182,7 +182,7 @@ const womenswatch = () => (
                       <div className="row">
                           <div className="single-product">
                               <div className="col-xs-4 col-sm-4 col-md-4 col-lg-4 image">
-                              <img src="./assets/img/01.jpg" alt className="img-responsive img-rounded" />
+                              <img src="./img/product/watch3.jpg" alt className="img-responsive img-rounded" />
                               </div>
                               <div className="col-xs-8 col-sm-8 col-md-8 col-lg-8 infor">
                                   <h3>Tên sản phẩm</h3>
@@ -205,9 +205,6 @@ const womenswatch = () => (
           </div>
       </div>
     </div>
-  </div>
-  <div>
-    <Footer />
   </div>
 </div>
 );
